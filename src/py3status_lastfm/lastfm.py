@@ -52,6 +52,12 @@ class Py3status:
         except Exception as e:
             return self._create_output(str(e))
 
+        if song is None:
+            return self._create_output(
+                self.py3.safe_format(self.format_stopped),
+                self.py3.COLOR_STOP
+            )
+
         is_playing = self._is_playing(song)
         if is_playing:
             song_info = {
