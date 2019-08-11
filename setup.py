@@ -26,7 +26,7 @@ setup(
     entry_points={'py3status': ['module = py3status_lastfm.lastfm']},
     classifiers=[
         'Development Status :: 3 - Alpha',
-        'Intended Audience :: End Users/Desktop'
+        'Intended Audience :: End Users/Desktop',
         'Topic :: Utilities',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Operating System :: POSIX :: Linux',
