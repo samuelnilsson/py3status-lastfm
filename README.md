@@ -7,7 +7,12 @@ pip install py3status-lastfm
 ```
 
 ## usage
-From the module documentation:
+Load module in your py3status configuration file:
+```text
+order += "lastfm"
+```
+
+Add a lastfm section and configure the module according to the module documentation:
 ```text
 Displays a users currently playing track on last.fm
 
