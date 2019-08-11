@@ -6,6 +6,7 @@ setup(
     name='py3status-lastfm',
     version='0.1.0',
     description='A py3status module for displaying a users currently playing song on last.fm',
+    long_description='See https://github.com/samuelnilsson/py3status-lastfm/blob/master/README.md',
     author='Samuel Nilsson',
     author_email='samni698@gmail.com',
     license='GNU General Public License v3 (GPLv3)',

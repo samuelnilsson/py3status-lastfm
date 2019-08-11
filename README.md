@@ -2,11 +2,9 @@
 A [py3status](https://github.com/ultrabug/py3status) module for displaying a users currently playing song on last.fm
 
 ## install
-Clone the repository and run
 ```text
-pip install .
+pip install py3status-lastfm
 ```
-in the repository root.
 
 ## usage
 From the module documentation:
